@@ -15,7 +15,7 @@ public class Main {
 
     static {System.loadLibrary(Core.NATIVE_LIBRARY_NAME);}
     public static void main(String[] args) {
-        String filepath = "images/m.jpg"; //"images/colors.jpg"
+        String filepath = "images/colors.jpg"; //"images/colors.jpg"
 
         Mat colors= new Mat();
         Mat labels = new Mat();
